@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 33);
+  color: white;
+}
+.container{
+    max-width: 80%;
+    padding: 25px;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 89px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.container h1{
+text-align: center;
+font-size: 40px;
+}
+.container p{
+    font-size: 19px;
+    text-align: center;
+}
+input,textarea{
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+padding: 7px;
+display: block;
+border: 2px solid black;
+outline: none;
+border-radius: 10px;
+}
+input::placeholder,textarea::placeholder{
+    font-size: 17px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 17px;
+    font-size: 21px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+.btn:hover{
+    color: black;
+    background: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+  }
+  .right p {
+    margin: 5rem 8rem 5rem 54rem;
+    color: white;
+    font-size: 23px;
+  }
+  .right p a{
+    text-decoration: none;
+    color: orange;
+  }
+  .right p a:hover{
+    text-decoration: none;
+    color: purple;
+    font-size: 1.0rem;
+  }
+  .left {
+    font-size: 31px;
+    color: white;
+    margin-left: 5rem;
+  }
+
+  

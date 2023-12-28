@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 25px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.01rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+.container {
+  text-align: center;
+}
+.container h1 {
+  background-color: orange;
+  color: black;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.container .blue h2 {
+  font-size: 26px;
+  text-align: center;
+  color: white;
+}
+.container .blue h4 {
+  font-size: 21px;
+}
+.container .box {
+  display: flex;
+  margin-left: 15rem;
+  margin-right: 19rem;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.container .box .a,
+.b,
+.c {
+  border: 2px solid white;
+  padding: 7px;
+  margin: 13px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container h2 {
+  text-align: left;
+  padding: 8px;
+  font-size: 19px;
+}
+.container .box img{
+    width: 90%;
+    height: 30%;
+}
+.container .box .a #p1 {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(252, 246, 246);
+}
+.container .box .a #p2 {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(136, 128, 128);
+}
+.container .box .a #p3 {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(136, 128, 128);
+}
+.container .box .a #p4 {
+  text-align: left;
+  font-size: 14px;
+  color: rgb(252, 246, 246);
+}
+.container .box .a #p4 span {
+  text-align: right;
+  font-size: 14px;
+  padding-left: 30px;
+  color: blue;
+}
+.container .box .b #p1 {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(252, 246, 246);
+}
+.container .box .b #p2 {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(136, 128, 128);
+}
+.container .box .b #p3 {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(136, 128, 128);
+}
+.container .box .b #p4 {
+  text-align: left;
+  font-size: 14px;
+  color: rgb(252, 246, 246);
+}
+.container .box .b #p4 span {
+  text-align: right;
+  font-size: 14px;
+  padding-left: 30px;
+  color: blue;
+}
+.container .box .c #p1 {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(252, 246, 246);
+}
+.container .box .c #p2 {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(136, 128, 128);
+}
+.container .box .c #p3 {
+  text-align: left;
+  font-size: 19px;
+  color: rgb(136, 128, 128);
+}
+.container .box .c #p4 {
+  text-align: left;
+  font-size: 14px;
+  color: rgb(252, 246, 246);
+}
+.container .box .c #p4 span {
+  text-align: right;
+  font-size: 14px;
+  padding-left: 30px;
+  color: blue;
+}
+.container .box .a:hover,
+.b:hover,
+.c:hover {
+  box-shadow: 4px 4px rgb(59, 54, 54);
+  cursor: pointer;
+  font-size: 49px;
+  color: wheat;
+  border: 3px solid rgb(138, 126, 126);
+}

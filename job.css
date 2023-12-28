@@ -1,0 +1,197 @@
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  font-size: 23px;
+
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+
+  margin: 25px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.01rem;
+}
+.right select {
+  margin: 25px 23px;
+  font-size: 21px;
+  background-color: #1e2547;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+.right select option {
+  background-color: white;
+  color: black;
+}
+.left {
+  font-size: 1.5rem;
+}
+.btn {
+  padding: 10px;
+  background-color: #1e2547;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 23px;
+  cursor: pointer;
+  width: 100px;
+  margin: 6px;
+}
+.btn:hover,
+.btn1:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  background: orange;
+}
+.btn1 {
+  text-decoration: none;
+  padding: 13px;
+  background-color: #1e2547;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 23px;
+  cursor: pointer;
+  width: 100px;
+  margin: 13px;
+}
+.container {
+  text-align: center;
+}
+.jobSearch {
+  background-color: white;
+  padding: 12px;
+  margin-left: 19rem;
+  margin-right: 19rem;
+  color: black;
+  border-radius: 20px;
+}
+.jobSearch input:first-child {
+  border: none;
+  outline: none;
+  font-size: 21px;
+}
+.jobSearch input {
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+.jobSearch input span {
+  color: black;
+  font-weight: 900;
+}
+.jobSearch button {
+  text-decoration: none;
+  background-color: cyan;
+  color: black;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 16px;
+  margin-left: 2rem;
+}
+.jobOption {
+  color: black;
+  margin-left: 16rem;
+  margin-right: 16rem;
+}
+.jobOption .first {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 4px;
+}
+.jobOption .first p {
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+  margin: 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-size: 17px;
+  border-radius: 9px;
+}
+.jobOption .first p:hover {
+  border: 2px solid rgb(110, 102, 102);
+  background-color: white;
+  font-size: 20px;
+}
+.jobOption .second p:hover {
+  border: 2px solid rgb(110, 102, 102);
+  background-color: white;
+  font-size: 20px;
+}
+.jobOption .first span,
+.jobOption .second span {
+  margin-left: 14px;
+  cursor: pointer;
+}
+.jobOption .second {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+.jobOption .second p {
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+  margin: 15px;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: whitesmoke;
+  font-size: 17px;
+  border-radius: 9px;
+}
+.companies {
+  display: flex;
+  text-align: center;
+  margin-left: 19rem;
+  margin-right: 19rem;
+}
+.companies .first1,
+.second2,
+.third3,
+.fourth4,
+.fifth5 {
+  border: 2px solid white;
+  text-align: center;
+  padding: 12px;
+  margin: 12px;
+  color: white;
+  cursor: pointer;
+  }
+  .companies .first1,.second2,.third3,.fourth4,.fifth5:hover{
+    box-shadow: #1e2547;
+  }
+.companies h2{
+  text-align: left;
+  font-size: 22px;
+}
+.companies h2 span{
+  cursor: pointer;
+}
+.companies img{
+  width: 30%;
+  height: 25%;
+}

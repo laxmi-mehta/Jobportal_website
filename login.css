@@ -1,0 +1,208 @@
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  font-size: 23px;
+
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+
+  margin: 25px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.01rem;
+}
+.right select {
+  margin: 25px 23px;
+  font-size: 21px;
+  background-color: #1e2547;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+.right select option{
+background-color: white;
+color: black;
+}
+.btn1 {
+  text-decoration: none;
+  padding: 13px;
+  background-color: #1e2547;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 23px;
+  cursor: pointer;
+  width: 100px;
+  margin: 13px;
+}
+.btn1:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  background: orange;
+}
+.btn2 {
+  text-decoration: none;
+  padding: 14px;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 14rem;
+  margin: 13px;
+ margin-left: 7rem;
+}
+.btn2:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: black;
+}
+.btn3 {
+  text-decoration: none;
+  padding: 11px;
+  background-color: rgb(25, 152, 195);
+  color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 29rem;
+  margin: 19px;
+  text-align: center;
+}
+.btn3:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: black;
+}
+.btn4 {
+  text-decoration: none;
+  padding: 11px;
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 24px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 29rem;
+  margin: 19px;
+  text-align: center;
+}
+.btn4:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: black;
+}
+.left {
+  font-size: 1.5rem;
+}
+.container {
+  border: 2px solid white;
+  margin: 14px;
+  padding: 18px;
+}
+.container1 {
+  border: 2px solid white;
+  margin: 20px;
+  padding: 25px;
+  margin-top: -2rem;
+  height: 60%;
+  width: 35%;
+}
+.container1 h3 {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container1 h5 {
+  text-align: center;
+  font-size: 20px;
+}
+.conta {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  padding: 3px;
+  outline-offset: 60px;
+}
+.container:hover,
+.container1:hover {
+  box-shadow: 4px 4px 4px 4px rgb(200, 62, 200);
+}
+.container h2,
+.container1 h2 {
+  font-size: 35px;
+  color: aqua;
+}
+/* .container button,.container1 button{
+    padding: 23px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    background: rgb(234, 21, 234);
+    font-size: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+  .container button:hover,
+  .container1 button:hover{
+    background: orange;
+    color: black;
+  } */
+ul {
+  list-style-type: disc;
+  font-size: 23px;
+  padding-top: 44px;
+  padding-bottom: 34px;
+}
+.container ul li {
+  font-size: 21px;
+  padding: 8px;
+}
+.container img{
+    height: 8rem;
+    width: 12rem;
+}
+.container1 label {
+  font-size: 23px;
+}
+.container1 input {
+  width: 100%;
+  height: 35px;
+}
+.container1 input::placeholder {
+  font-size: 17px;
+}
+.container1 span {
+  font-size: 23px;
+  padding-left: 20rem;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sans Serif";
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(18, 18, 62);
+}
+nav ul {
+  display: flex;
+  font-size: 23px;
+
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+
+  margin: 25px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(153, 153, 226);
+  font-size: 1.01rem;
+}
+.right select {
+  margin: 25px 23px;
+  font-size: 21px;
+  background-color: #1e2547;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+.right select option{
+background-color: white;
+color: black;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 1.5rem;
+}
+.leftSection span {
+  font-size: 2.5rem;
+}
+.buttons input {
+  width: 160px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.buttons input::placeholder {
+  font-size: 22px;
+  padding-left: 12px;
+  cursor: auto;
+}
+.btn {
+  padding: 10px;
+  background-color: #1e2547;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 23px;
+  cursor: pointer;
+  width: 100px;
+  margin: 6px;
+
+}
+.btn:hover,.btn1:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  background: orange;
+}
+.btn1{
+  text-decoration: none;
+  padding: 13px;
+  background-color: #1e2547;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 23px;
+  cursor: pointer;
+  width: 100px;
+  margin: 13px;
+}
+
+.leftSection .buttons {
+  padding: 50px 0;
+}
+.rightSection img {
+  width: 90%;
+}
+.purple {
+  color: rgb(170, 107, 228);
+}
+.text-gray {
+  color: gray;
+}
+#element {
+  color: rgb(170, 107, 228);
+}
+.middlesection {
+  background: orange;
+  display: flex;
+  padding: 20px;
+  margin: 30px;
+}
+.middlesection button {
+  margin-left: 900px;
+  width: 200px;
+  font-size: 28px;
+}
+.middlesection p {
+  font-size: 22px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.secondSection {
+  align-items: center;
+  padding: 23px;
+  margin: 93px;
+  justify-content: center;
+  color: rgb(200, 62, 200);
+}
+table {
+  font-size: 23px;
+}
+.secondSection h3 {
+  font-size: 34px;
+  margin-left: 35%;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(200, 62, 200);
+}
+.secondSection tr {
+  padding: 0;
+  margin: 0;
+}
+th img {
+  width: 60%;
+  padding: 0px;
+  margin: 0px;
+  height: 80%;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.thirdSection {
+  color: white;
+}
+.thirdSection h3 {
+  font-size: 34px;
+  margin-left: 42%;
+  margin-bottom: 35px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(200, 62, 200);
+}
+.thirdSection ul {
+  display: flex;
+  color: black;
+  font-size: 24px;
+  background-color: white;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  cursor: pointer;
+}
+.fourthSection{
+  background: orange;
+  color: black;
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  gap: 17%;
+}
+.fourthSection h3{
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer-distributed {
+  position: relative;
+
+  background: rgb(3, 3, 102) ;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: white;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color:white;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: white;
+  font-size: 30px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: white;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 22px;
+}
+
+
+.footer-distributed .footer-center  a {
+  color:white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 22px;
+  left: 0;
+  color: var(--primary-color);
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
