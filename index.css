@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Sans Serif";
 }
+
 body {
   background-color: rgb(0, 0, 33);
   color: white;
@@ -12,7 +13,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 60px;
+  padding-right: 0rem;;
   background-color: rgb(18, 18, 62);
 }
 nav ul {
@@ -24,7 +26,7 @@ nav ul {
 nav ul li {
   list-style: none;
 
-  margin: 25px 23px;
+  margin: 32px 23px;
 }
 nav ul li a {
   text-decoration: none;
@@ -33,23 +35,26 @@ nav ul li a {
 
 nav ul li a:hover {
   color: rgb(153, 153, 226);
-  font-size: 1.01rem;
+  font-size: 1.21rem;
 }
 .right select {
-  margin: 25px 23px;
-  font-size: 21px;
+  margin: 29px 23px;
+  font-size: 19px;
   background-color: #1e2547;
   color: white;
-  padding: 8px;
+  padding: 6px;
   cursor: pointer;
 }
-.right select option{
-background-color: white;
-color: black;
+.right select option {
+  background-color: white;
+  color: black;
 }
 .left {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: white;
+
 }
+
 .firstSection {
   display: flex;
   justify-content: space-around;
@@ -88,15 +93,15 @@ color: black;
   cursor: pointer;
   width: 100px;
   margin: 6px;
-
 }
-.btn:hover,.btn1:hover{
+.btn:hover,
+.btn1:hover {
   text-decoration: none;
   color: black;
   font-size: 1.2rem;
   background: orange;
 }
-.btn1{
+/* .btn1{
   text-decoration: none;
   padding: 13px;
   background-color: #1e2547;
@@ -107,7 +112,7 @@ color: black;
   cursor: pointer;
   width: 100px;
   margin: 13px;
-}
+} */
 
 .leftSection .buttons {
   padding: 50px 0;
@@ -127,17 +132,18 @@ color: black;
 .middlesection {
   background: orange;
   display: flex;
-  padding: 20px;
+  padding: 9px;
   margin: 30px;
 }
 .middlesection button {
-  margin-left: 900px;
+  margin-left: 53rem;
   width: 200px;
-  font-size: 28px;
+  font-size: 23px;
 }
 .middlesection p {
-  font-size: 22px;
-  color: white;
+  font-size: 23px;
+  color: black;
+
   justify-content: center;
   align-items: center;
 }
@@ -194,7 +200,11 @@ th img {
   margin-right: 25%;
   cursor: pointer;
 }
-.fourthSection{
+.thirdSection ul li:hover{
+  text-decoration: underline;
+
+}
+.fourthSection {
   background: orange;
   color: black;
   padding: 20px;
@@ -202,16 +212,15 @@ th img {
   display: flex;
   gap: 17%;
 }
-.fourthSection h3{
+.fourthSection h3 {
   font-size: 30px;
   align-items: center;
   justify-content: center;
-
 }
 .footer-distributed {
   position: relative;
 
-  background: rgb(3, 3, 102) ;
+  background: rgb(3, 3, 102);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -241,11 +250,10 @@ th img {
   margin: 0;
 }
 
-
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color:white;
+  color: white;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -293,9 +301,8 @@ th img {
   font-size: 22px;
 }
 
-
-.footer-distributed .footer-center  a {
-  color:white;
+.footer-distributed .footer-center a {
+  color: white;
   text-decoration: none;
   font-size: 22px;
 }
@@ -356,5 +363,3 @@ th img {
     margin-left: 0;
   }
 }
-
-
